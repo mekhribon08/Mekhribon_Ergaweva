@@ -1,0 +1,217 @@
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+  background: rgba(241, 235, 235, 0.219);
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hello {
+  margin-right: 700px;
+  margin-left: -52px;
+  margin-top: 30px;
+}
+
+.header-nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.section {
+  margin-top: 60px;
+}
+
+.section__inner h1 {
+  font-size: 50px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 80px;
+}
+
+.section__inner img {
+  border-radius: 75px 2px 75px;
+}
+
+.section__inner {
+  text-align: center;
+}
+
+.about-me {
+  margin-top: 150px;
+}
+
+.content {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 2px;
+  border: 2px dashed grey;
+  border-bottom: none;
+  width: 400px;
+  height: 20px;
+  padding-top: 50px;
+  margin-left: 390px;
+}
+
+.text {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.aboutme-text {
+  width: 680px;
+  margin-left: 280px;
+  font-size: 20px;
+  line-height: 38px;
+  margin-bottom: 50px;
+}
+
+.about-me__m {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 280px;
+  line-height: 2px;
+}
+
+.about-me__m h4 {
+  color: rgb(84, 83, 83);
+}
+
+.aboutme-text::after {
+  content: url(../picture/coffee\ panda.jpg);
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.about-me__wrap {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 250px;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.box {
+  border: 2.5px solid #555;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 15px;
+  border-radius: 12px;
+}
+
+.box:hover {
+  color: #fff;
+  border: 2.5px dashed #fff;
+  background: #000;
+  box-shadow: 1px 1px 20px black;
+  transition: 0.3s ease;
+}
+
+.projects {
+  margin-top: 150px;
+}
+
+.my-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 120px;
+  gap: 20px;
+}
+
+.my-projects-inner {
+  width: 360px;
+  height: 250px;
+  background: #000;
+}
+
+.for-communication {
+  margin-top: 200px;
+}
+
+.for-com__inner-img {
+  margin-top: 120px;
+  margin-left: -60px;
+}
+
+.for-com__inner {
+  display: flex;
+  align-items: center;
+}
+
+.for-com__form {
+  display: block;
+  border: 2px solid rgba(0, 0, 0, 0.604);
+  border-radius: 8px;
+  width: 500px;
+  padding: 12px 15px;
+  background: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.for-com__form:hover {
+  box-shadow: 0px 0px 10px grey;
+  transition: 0.3s ease;
+}
+
+.for-com__inner-content {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.for-com__inner-content h2 {
+  color: rgba(0, 0, 0, 0.604);
+  line-height: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.795);
+  color: #fff;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, 0.897);
+}
+
+.for-com__inner-wrap {
+  border-left: 2px solid rgba(0, 0, 0, 0.645);
+  margin-left: 40px;
+  height: 260px;
+  margin-bottom: -78px;
+  padding: 20px;
+}
+
+.wrap-svg {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.sites-img:hover {
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-radius: 5px;
+  padding: 2px;
+  transition: 0.3s ease;
+}/*# sourceMappingURL=main.css.map */

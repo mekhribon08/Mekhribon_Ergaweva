@@ -1,0 +1,70 @@
+.for-communication {
+  margin-top: 200px;
+}
+
+.for-com__inner-img {
+  margin-top: 120px;
+  margin-left: -60px;
+}
+
+.for-com__inner {
+  display: flex;
+  align-items: center;
+}
+
+.for-com__form {
+  display: block;
+  border: 2px solid rgba(0, 0, 0, 0.604);
+  border-radius: 8px;
+  width: 500px;
+  padding: 12px 15px;
+  background: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.for-com__form:hover {
+  box-shadow: 0px 0px 10px grey;
+  transition: 0.3s ease;
+}
+
+.for-com__inner-content {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.for-com__inner-content h2 {
+  color: rgba(0, 0, 0, 0.604);
+  line-height: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.795);
+  color: #fff;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, 0.897);
+}
+
+.for-com__inner-wrap {
+  border-left: 2px solid rgba(0, 0, 0, 0.645);
+  margin-left: 40px;
+  height: 260px;
+  margin-bottom: -78px;
+  padding: 20px;
+}
+
+.wrap-svg {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.sites-img:hover {
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-radius: 5px;
+  padding: 2px;
+  transition: 0.3s ease;
+}

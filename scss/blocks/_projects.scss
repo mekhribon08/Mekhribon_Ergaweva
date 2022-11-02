@@ -1,0 +1,17 @@
+.projects {
+  margin-top: 150px;
+}
+
+.my-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 120px;
+  gap: 20px;
+}
+
+.my-projects-inner {
+  width: 360px;
+  height: 250px;
+  background: #000;
+}
