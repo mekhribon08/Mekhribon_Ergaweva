@@ -16,8 +16,9 @@
 }
 
 .content:hover {
-  border: 2px dashed #000;
+  border: 2px solid #000;
   border-bottom: none;
+  border-top: 2px dashed black;
   text-shadow: 8px 12px 8px black;
   transition: 0.3s ease;
 }
