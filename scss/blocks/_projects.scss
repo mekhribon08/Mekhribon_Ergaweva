@@ -2,7 +2,7 @@
   margin-top: 150px;
 }
 
-.my-projects {
+.my-projects ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -11,7 +11,40 @@
 }
 
 .my-projects-inner {
+  list-style-type: none;
+
+  & a {
+    text-decoration: none;
+  }
+}
+
+.my-projects-inner a img {
   width: 360px;
   height: 250px;
-  background: #000;
+}
+
+.my-projects-inner a:hover {
+  border-bottom: 2px solid rgb(74, 70, 70);
+  transition: 0.3s ease;
+  opacity: 0.4;
+}
+
+.my-projects__name {
+  text-align: center;
+  width: 25%;
+  position: absolute;
+  margin-top: -180px;
+  color: black;
+  font-size: 26px;
+  opacity: -1;
+}
+
+.my-projects__name:hover {
+  opacity: 1;
+  text-align: center;
+  width: 25%;
+  position: absolute;
+  margin-top: -200px;
+  color: red;
+  font-size: 30px;
 }

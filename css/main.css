@@ -21,9 +21,9 @@ body {
 }
 
 .hello {
-  margin-right: 700px;
   margin-left: -52px;
   margin-top: 30px;
+  border-radius: 20px;
 }
 
 .header-nav ul {
@@ -31,6 +31,20 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.header-nav ul {
+  background-color: #dedede;
+  width: 460px;
+  height: 100px;
+  margin-top: -5px;
+  border-radius: 0px 0px 0px 120px;
+}
+
+.header-nav {
+  position: fixed;
+  margin-left: 820px;
+  z-index: 2;
 }
 
 .section {
@@ -69,6 +83,13 @@ body {
   margin-left: 390px;
 }
 
+.content:hover {
+  border: 2px dashed #000;
+  border-bottom: none;
+  text-shadow: 8px 12px 8px black;
+  transition: 0.3s ease;
+}
+
 .text {
   text-align: center;
   font-weight: 400;
@@ -95,12 +116,14 @@ body {
   color: rgb(84, 83, 83);
 }
 
-.aboutme-text::after {
-  content: url(../picture/coffee\ panda.jpg);
+.about-me__inner-img {
+  display: inline-flex;
+  content: url(../picture/camp-1.jpg);
   position: absolute;
-  margin-left: 550px;
-  margin-top: 30px;
-  border-radius: 50px;
+  margin-left: 960px;
+  margin-top: -50px;
+  border-radius: 25px;
+  width: 200px;
 }
 
 .about-me__wrap {
@@ -131,7 +154,7 @@ body {
   margin-top: 150px;
 }
 
-.my-projects {
+.my-projects ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -140,9 +163,41 @@ body {
 }
 
 .my-projects-inner {
+  list-style-type: none;
+}
+.my-projects-inner a {
+  text-decoration: none;
+}
+
+.my-projects-inner a img {
   width: 360px;
   height: 250px;
-  background: #000;
+}
+
+.my-projects-inner a:hover {
+  border-bottom: 2px solid rgb(74, 70, 70);
+  transition: 0.3s ease;
+  opacity: 0.4;
+}
+
+.my-projects__name {
+  text-align: center;
+  width: 25%;
+  position: absolute;
+  margin-top: -180px;
+  color: black;
+  font-size: 26px;
+  opacity: -1;
+}
+
+.my-projects__name:hover {
+  opacity: 1;
+  text-align: center;
+  width: 25%;
+  position: absolute;
+  margin-top: -200px;
+  color: red;
+  font-size: 30px;
 }
 
 .for-communication {
@@ -151,7 +206,8 @@ body {
 
 .for-com__inner-img {
   margin-top: 120px;
-  margin-left: -60px;
+  margin-left: -40px;
+  border-radius: 25px;
 }
 
 .for-com__inner {
@@ -176,7 +232,7 @@ body {
 }
 
 .for-com__inner-content {
-  margin-left: 250px;
+  margin-left: 300px;
   margin-top: 50px;
 }
 
@@ -214,4 +270,5 @@ body {
   border-radius: 5px;
   padding: 2px;
   transition: 0.3s ease;
+  transform: scale(1.4);
 }/*# sourceMappingURL=main.css.map */

@@ -15,6 +15,13 @@
   margin-left: 390px;
 }
 
+.content:hover {
+  border: 2px dashed #000;
+  border-bottom: none;
+  text-shadow: 8px 12px 8px black;
+  transition: 0.3s ease;
+}
+
 .text {
   text-align: center;
   font-weight: 400;
@@ -41,12 +48,14 @@
   color: rgb(84, 83, 83);
 }
 
-.aboutme-text::after {
-  content: url(../picture/coffee\ panda.jpg);
+.about-me__inner-img {
+  display: inline-flex;
+  content: url(../picture/camp-1.jpg);
   position: absolute;
-  margin-left: 550px;
-  margin-top: 30px;
-  border-radius: 50px;
+  margin-left: 960px;
+  margin-top: -50px;
+  border-radius: 25px;
+  width: 200px;
 }
 
 .about-me__wrap {

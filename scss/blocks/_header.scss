@@ -15,9 +15,9 @@ body {
 }
 
 .hello {
-  margin-right: 700px;
   margin-left: -52px;
   margin-top: 30px;
+  border-radius: 20px;
 }
 
 .header-nav ul {
@@ -25,4 +25,18 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.header-nav ul {
+  background-color: #dedede;
+  width: 460px;
+  height: 100px;
+  margin-top: -5px;
+  border-radius: 0px 0px 0px 120px;
+}
+
+.header-nav {
+  position: fixed;
+  margin-left: 820px;
+  z-index: 2;
 }
