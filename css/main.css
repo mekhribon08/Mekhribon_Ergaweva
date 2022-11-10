@@ -178,7 +178,7 @@ body {
 .my-projects-inner a:hover {
   border-bottom: 2px solid rgb(74, 70, 70);
   transition: 0.3s ease;
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
 .my-projects__name {
