@@ -13,6 +13,7 @@
   height: 20px;
   padding-top: 50px;
   margin-left: 390px;
+  transition: 0.3s ease;
 }
 
 .content:hover {
@@ -30,8 +31,8 @@
 }
 
 .aboutme-text {
-  width: 680px;
-  margin-left: 280px;
+  max-width: 680px;
+  margin: 0 auto;
   font-size: 20px;
   line-height: 38px;
   margin-bottom: 50px;

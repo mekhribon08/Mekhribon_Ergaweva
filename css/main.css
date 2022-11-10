@@ -81,6 +81,7 @@ body {
   height: 20px;
   padding-top: 50px;
   margin-left: 390px;
+  transition: 0.3s ease;
 }
 
 .content:hover {
@@ -98,8 +99,8 @@ body {
 }
 
 .aboutme-text {
-  width: 680px;
-  margin-left: 280px;
+  max-width: 680px;
+  margin: 0 auto;
   font-size: 20px;
   line-height: 38px;
   margin-bottom: 50px;
@@ -167,6 +168,7 @@ body {
   list-style-type: none;
 }
 .my-projects-inner a {
+  display: inline-block;
   text-decoration: none;
 }
 
@@ -186,12 +188,11 @@ body {
   width: 25%;
   position: absolute;
   margin-top: -180px;
-  color: black;
   font-size: 26px;
-  opacity: -1;
+  opacity: 0;
 }
 
-.my-projects__name:hover {
+.my-projects-inner a h4:hover {
   opacity: 1;
   text-align: center;
   width: 25%;
@@ -225,6 +226,7 @@ body {
   background: none;
   margin-bottom: 20px;
   font-size: 16px;
+  resize: vertical;
 }
 
 .for-com__form:hover {
