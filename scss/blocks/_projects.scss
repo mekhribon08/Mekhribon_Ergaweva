@@ -25,24 +25,24 @@
 }
 
 .my-projects-inner a:hover {
-  border-bottom: 2px solid rgb(74, 70, 70);
+  border: 2px solid rgb(74, 70, 70);
   transition: 0.3s ease;
   opacity: 0.5;
+  box-shadow: 4px 4px 12px black;
 }
 
 .my-projects__name {
-  text-align: center;
-  width: 25%;
   position: absolute;
   opacity: 0;
 }
 
 .my-projects-inner a:hover h4 {
-  opacity: 5;
+  opacity: 1;
   text-align: center;
   width: 25%;
   position: absolute;
   margin-top: -240px;
-  color: black;
   font-size: 30px;
+  color: black;
+  transition: 0.3s ease;
 }
