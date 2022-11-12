@@ -187,18 +187,16 @@ body {
   text-align: center;
   width: 25%;
   position: absolute;
-  margin-top: -180px;
-  font-size: 26px;
   opacity: 0;
 }
 
-.my-projects-inner a h4:hover {
-  opacity: 1;
+.my-projects-inner a:hover h4 {
+  opacity: 5;
   text-align: center;
   width: 25%;
   position: absolute;
-  margin-top: -200px;
-  color: red;
+  margin-top: -240px;
+  color: black;
   font-size: 30px;
 }
 
